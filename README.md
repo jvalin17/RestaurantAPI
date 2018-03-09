@@ -30,24 +30,23 @@ You have python and pip installed in your system.
     Url: http://127.0.0.1:5002/users
 
     Example JSON
-    '
-    {
+            {
             "first_name": "Jim",
             "last_name": "Wobb",
             "phone": 8889901123
-    }
-    '
+            }
+    
 
 2.	Update a user- A user can be updated or deleted
 Request Type: PUT
 Url- http://127.0.0.1:5002/users/4 (ends with user Id)
 
 Example JSON:
-{
+            {
             "first_name": "Tyler",
             "last_name": "Wong",
             "phone": 8889901677
-}
+            }
 
 Request Type: DELETE
 Url - http://127.0.0.1:5002/users/4 (ends with user Id)
