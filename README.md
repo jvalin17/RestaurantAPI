@@ -16,8 +16,8 @@ You have python and pip installed in your system.
 
 #### Instructions:
 1.	Clone project from git.
-2.	Go to Tesla directory through terminal. 
-3.	Run the command “pip install requirements.txt”.
+2.	Go to Assignment directory through terminal. 
+3.	Run the command “pip install -r requirements.txt”.It will set up all dependencies.
 4.	Run models.py using command “python models.py”.It sets up database and tables.
 5.	Run app.py using command “python app.py”.
 6.	Go to Postman App or in browser.
@@ -135,4 +135,4 @@ Request Type: GET
 Url- http://127.0.0.1:5002/ratings/address=2 (ends with address Id)   
 
 #### Database Design
-![appimage](https://raw.githubusercontent.com/jvalin17/RestaurantAPI/master/public/images/app_image.png)
+![appimage](https://raw.githubusercontent.com/jvalin17/RestaurantAPI/master/private/Assignment/images/database_schema.png)
