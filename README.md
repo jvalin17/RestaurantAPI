@@ -97,7 +97,7 @@ Request Type: GET
 To get restaurants based on restaurant category/location/Rating, you can modify below url based on your requirement. The results will only be shown for restaurants that have at least 1 rating.  
 Url- http://127.0.0.1:5002/restaurants?category=Italian&city=Austin  
 
-#### 8.Create a rating for a restaurant by a user - A rating is created for a restaurant by a user.  
+#### 8.Create a rating for a restaurant by a user - A rating is created for a restaurant by a user for first time when a user gives rating to a restaurant at a particular location.  
 Request Type: POST  
 Url – http://127.0.0.1:5002/restaurants   
 Example JSON  
