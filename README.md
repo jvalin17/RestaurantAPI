@@ -10,6 +10,7 @@ Database: SQLAlchemy, SQLite3
 #### Program Structure: 
 Models – Classes for data storage is defined.   
 Controllers- processes GET, PUT, POST, DELETE requests from/to ORM based database. 
+Main App - Runs the Flask App.  
 
 #### Assumptions: 
 You have python and pip installed in your system.  
