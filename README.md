@@ -25,23 +25,24 @@ You have python and pip installed in your system.
 
 #### API URL and Request formats
 
-1.	Create a user - A user is created
-    Request Type: POST
-    Url: http://127.0.0.1:5002/users
+##### 1.	Create a user - A user is created
+Request Type: POST
+Url: http://127.0.0.1:5002/users
+Example JSON:    
 
-    Example JSON
-          ''' {
+            {
             "first_name": "Jim",
             "last_name": "Wobb",
             "phone": 8889901123
-            }'''
-    
+     
+            }
+     
 
-2.	Update a user- A user can be updated or deleted
+##### 2.	Update a user- A user can be updated or deleted
 Request Type: PUT
 Url- http://127.0.0.1:5002/users/4 (ends with user Id)
-
 Example JSON:
+            
             {
             "first_name": "Tyler",
             "last_name": "Wong",
@@ -51,20 +52,21 @@ Example JSON:
 Request Type: DELETE
 Url - http://127.0.0.1:5002/users/4 (ends with user Id)
 
-3.	Get user(s) info - Get all Users
+##### 3.	Get user(s) info - Get all Users
 Request Type: GET
 Url- http://127.0.0.1:5002/users
 
-4.	Get a single user by User Id
+##### 4.	Get a single user by User Id
 Request Type: GET
 Url- http://127.0.0.1:5002/users/3 (ends with user Id)
 
-5.	Create a restaurant - A restaurant is created
+##### 5.	Create a restaurant - A restaurant is created
 Request Type: POST
 Url  - http://127.0.0.1:5002/restaurants
 
 Example JSON:
-{
+    
+    {
             
             "category": "Mexican",
             "city": "Arlington",
@@ -75,22 +77,21 @@ Example JSON:
             "zipcode": 75010
  	}
 
-6.	Update a restaurant - A restaurant is updated
-Url - http://127.0.0.1:5002/restaurants/2 (ends with address Id)
-
+##### 6.	Update a restaurant - A restaurant is updated
 Request Type: PUT
+Url - http://127.0.0.1:5002/restaurants/2 (ends with address Id)
 Example JSON:
-{
+    
+    {
             
             "category": "Chinese",
             "city": "Houston",
             "state": "TX",
             "street": "112 Lamar Blvd.",
             "zipcode": 72709
-}
+    }
 
-7.	Get restaurant(s) by name / city/ category/total scoreQuery restaurants with possible filters by restaurant name, city, category or total score.Example: Find Mexican restaurant(s) in San Jose (or zip code) with total score above 3 stars
-
+##### 7.	Get restaurant(s) by name / city/ category/total scoreQuery restaurants with possible filters by restaurant name, city, category or total score.Example: Find Mexican restaurant(s) in San Jose (or zip code) with total score above 3 stars
 Request Type: GET
 To get all restaurants
 Url- http://127.0.0.1:5002/restaurants
@@ -99,11 +100,12 @@ Request Type: GET
 To get restaurants based on restaurant category/location/Rating, you can modify below url based on your requirement. The results will only be shown for restaurants that have at least 1 rating.
 Url- http://127.0.0.1:5002/restaurants?category=Italian&city=Austin
 
-8.	Create a rating for a restaurant by a user - A rating is created for a restaurant by a user
+##### 8.	Create a rating for a restaurant by a user - A rating is created for a restaurant by a user
 Request Type: POST
 Url – http://127.0.0.1:5002/restaurants 
 Example JSON
-{
+
+    {
             
             "category": "Mexican",
             "city": "Philadelphia",
@@ -118,14 +120,16 @@ Example JSON
 Request Type: PUT
 Url – http://127.0.0.1:5002/ratings 
 Example JSON
-{
+
+    {
   	"user_id": 2,
   	"address_id": 2,
   	"cost_rating": 1,
   	"food_rating": 1,
   	"cleanliness_rating": 1,
   	"service_rating": 1
-}
+    }
+
 
 10.	Get rating(s) by user - Get a rating or a list of rating given by a user (include all restaurants)
 Request Type: GET
