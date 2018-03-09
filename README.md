@@ -102,15 +102,15 @@ Request Type: POST
 Url – http://127.0.0.1:5002/restaurants   
 Example JSON  
 
-            {
-            "category": "Mexican",
-            "city": "Philadelphia",
-            "ratings": 3,
-            "name": "Chipotle",
-            "state": "PA",
-            "street": "110 Lambard St.",
-            "zipcode": 19107
- 	}
+             {
+            "user_id": 1,
+            "address_id": 1,
+            "restaurant_name":"Drums",
+            "cost_rating": 2,
+            "food_rating": 1,
+            "cleanliness_rating": 1,
+            "service_rating": 1
+            }
  
 #### 9. Update a rating for a restaurant by a user - A rating is updated by a particular user if s/he has given rating before 30 days to that particular restaurant.  
 Request Type: PUT   
