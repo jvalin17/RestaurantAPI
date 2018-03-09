@@ -30,11 +30,11 @@ You have python and pip installed in your system.
     Url: http://127.0.0.1:5002/users
 
     Example JSON
-            {
+          ''' {
             "first_name": "Jim",
             "last_name": "Wobb",
             "phone": 8889901123
-            }
+            }'''
     
 
 2.	Update a user- A user can be updated or deleted
