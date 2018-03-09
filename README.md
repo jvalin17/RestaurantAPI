@@ -139,7 +139,7 @@ Url- http://127.0.0.1:5002/ratings/address=2 (ends with address Id)
 1.	1 month = 30 days.
 2.	For filter search on restaurants, the results will only be shown for restaurants that have at least 1 rating given                  by at least 1 user.
 3.	To update ratings, a user has to re-assign all ratings.
-4.	If you give invalid userId or addressId in any GET/PUT request, it returns empty output or doesn’t update record.
+4.	If you give invalid userId or addressId in any GET/PUT/DELETE request, it returns empty output or doesn’t update record.
 
 
 #### Database Design
