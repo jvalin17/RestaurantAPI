@@ -14,12 +14,12 @@
 #### Assumptions: 
 ##### You have python and pip installed in your system.  
 
-#### Instructions: 
-##### 1.	Clone project from git. 
-##### 2.	Go to Tesla directory through terminal.  
-##### 3.	Run the command “pip install requirements.txt”. 
-##### 4.	Run models.py using command “python models.py”.It sets up database and tables. 
-##### 5.	Run app.py using command “python app.py”. 
-##### 6.	Go to Postman. 
-##### 7.	Select your type of request (POST, GET, PUT, DELETE) and give the corresponding url and JSON format Input. 
+#### Instructions:
+##### 1.	Clone project from git.
+##### 2.	Go to Tesla directory through terminal. 
+##### 3.	Run the command “pip install requirements.txt”.
+##### 4.	Run models.py using command “python models.py”.It sets up database and tables.
+##### 5.	Run app.py using command “python app.py”.
+##### 6.	Go to Postman.
+##### 7.	Select your type of request (POST, GET, PUT, DELETE) and give the corresponding url and JSON format Input.
 
