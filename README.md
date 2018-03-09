@@ -3,9 +3,9 @@
 
 #### Technical Details: 
 
-Language: Python 2.7 
-Framework: Flask 
-Database: SQLAlchemy, SQLite3 
+Language: Python 2.7   
+Framework: Flask  
+Database: SQLAlchemy, SQLite3  
 
 #### Program Structure: 
 Models – Classes for data storage is defined. 
