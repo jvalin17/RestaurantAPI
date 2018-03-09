@@ -133,3 +133,6 @@ Url- http://127.0.0.1:5002/ratings/user=2 (ends with user Id)
 #### 11.Get rating(s) by restaurant(s) - Get a rating or a list of rating by restaurant. All users who gave the scores to the restaurant(s) will be aggregated to total score.  
 Request Type: GET  
 Url- http://127.0.0.1:5002/ratings/address=2 (ends with address Id)   
+
+#### Database Design
+![appimage](https://raw.githubusercontent.com/jvalin17/RestaurantAPI/master/public/images/app_image.png)
