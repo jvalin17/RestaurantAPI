@@ -135,4 +135,4 @@ Request Type: GET
 Url- http://127.0.0.1:5002/ratings/address=2 (ends with address Id)   
 
 #### Database Design
-![appimage](https://raw.githubusercontent.com/jvalin17/RestaurantAPI/master/private/Assignment/images/database_schema.png)
+![alt text](http://https://github.com/jvalin17/RestaurantAPI/tree/master/Assignment/images/database_schema.png)
