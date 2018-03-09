@@ -27,8 +27,12 @@ def newRating():
 
     	user_ratings = list(session.query(Rating).filter (Rating.user_id == user_id).filter (Rating.address_id == address_id).all())
     
+    	if cost_rating > 5 or cost_rating < 1 or food_rating > 5 or food_rating < 1 or cleanliness_rating > 5 or cleanliness_rating < 1 or service_rating > 5 or service_rating < 1:
+    		return "Please Give Rating in Range 1 to 5"
+
+
+
     	if len(user_ratings) > 0:
-    		logging.info("Rating for %s location already Exists") % (address_id)
     		return "Rating for this location already Exists, Try Updating it"
 
     	else:
