@@ -8,7 +8,7 @@ Framework: Flask
 Database: SQLAlchemy, SQLite3  
 
 #### Program Structure: 
-Models – Classes for data storage is defined. 
+Models – Classes for data storage is defined.   
 Controllers- processes GET, PUT, POST, DELETE requests from/to ORM based database. 
 
 #### Assumptions: 
