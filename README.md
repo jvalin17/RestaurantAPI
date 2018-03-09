@@ -20,7 +20,7 @@ You have python and pip installed in your system.
 3.	Run the command “pip install -r requirements.txt”.It will set up all dependencies.
 4.	Run models.py using command “python models.py”.It sets up database and tables.
 5.	Run app.py using command “python app.py”.
-6.	Go to Postman App or in browser.
+6.	Go to Postman App or in browser.(https://www.getpostman.com/)
 7.	Select your type of request (POST, GET, PUT, DELETE) and give the corresponding url and JSON format Input.
 
 ### API URL and Request formats
