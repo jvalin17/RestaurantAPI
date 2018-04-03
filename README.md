@@ -1,4 +1,4 @@
-# RestaurantAPI
+# PythonAPI
 
 
 #### Technical Details: 
