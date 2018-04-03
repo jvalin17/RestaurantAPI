@@ -15,15 +15,6 @@ Main App - Runs the Flask App.
 #### Assumptions: 
 You have python and pip installed in your system.  
 
-#### Instructions:
-1.	Clone project from git.
-2.	Go to Assignment directory through terminal. 
-3.	Run the command “pip install -r requirements.txt”.It will set up all dependencies.
-4.	Run models.py once using command “python models.py”.It sets up database and tables.
-5.	Run app.py using command “python app.py”.
-6.	Go to Postman App or open in browser and send requests.(https://www.getpostman.com/)
-7.	Select your type of request (POST, GET, PUT, DELETE) and give the corresponding url and JSON format Input.
-
 ### API URL and Request formats
 
 #### 1.Create a user - A user is created
